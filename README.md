@@ -1,52 +1,107 @@
-# Challenge_2_TelecomX
-En este desafío, el enfoque está en el proceso de extracción de datos desde la API, limpieza y transformación. Después de esta etapa de procesamiento, deberás organizar los datos de manera que permitan análisis más profundos y visualizaciones.
+📊 Análisis de Evasión de Clientes (Churn) - TelecomX
 
-# Proyecto Telecom X
+Este proyecto analiza los datos de clientes de una empresa de telecomunicaciones para identificar patrones de evasón (churn) y entender qué factores influyen en la decisión de los clientes de abandonar el servicio.
 
-## El propósito del análisis realizado
+🚀 Objetivos
 
-El propósito de este análisis es extraer información útil a partir de los datos obtenidos en el Challenge 2, con el objetivo de comprender los factores que influyen en la cancelación de servicios por parte de los clientes.
+Limpiar y transformar datos complejos en un formato analizable.
 
-A través del uso de Python y sus principales bibliotecas de análisis de datos, se recopilará, procesará y explorará la información para:
+Explorar visualmente los patrones de evasón de clientes.
 
-- Identificar patrones y comportamientos asociados a la evasión.
+Identificar variables claves que afectan el churn.
 
-- Detectar variables clave que influyen en la pérdida de clientes.
+Proporcionar recomendaciones basadas en datos reales.
 
-- Generar insights que permitan al equipo de Data Science construir modelos predictivos más efectivos.
+📁 Estructura del Proyecto
 
-- Brindar soporte en la toma de decisiones estratégicas para reducir la tasa de cancelación y optimizar los procesos de retención de clientes.
+📆Proyecto_TelecomX
+ ├📊 notebook.ipynb
+ ├📄 README.md
+ ├📂data
+ ├┃ └📄 TelecomX_Data.json
+ └📄 requirements.txt
 
-Este análisis representa un paso fundamental para transformar los datos en valor y orientar a la empresa hacia una gestión más eficiente, basada en evidencia y orientada al cliente.
+🧪 Tecnologías Utilizadas
 
-## La estructura del proyecto y organización de los archivos.
+Python 3.11+
 
-churn-clientes-telecomx/
-│
-├── 📁 data/
-│   ├── raw/                # Datos originales sin procesar (CSV, Excel, etc.)
-│   ├── processed/          # Datos limpios y transformados listos para análisis
-│   └── external/           # Archivos de fuentes externas (demos, benchmarks)
-│
-├── 📁 notebooks/
-│   ├── 01_exploracion.ipynb     # Análisis exploratorio inicial (EDA)
-│   ├── 02_preprocesamiento.ipynb # Limpieza y transformación de datos
-│   └── 03_modelado.ipynb        # Modelos predictivos (si aplica más adelante)
-│
-├── 📁 src/
-│   ├── data_processing.py       # Funciones para cargar y limpiar datos
-│   ├── eda.py                   # Funciones para análisis exploratorio
-│   └── utils.py                 # Funciones auxiliares o reutilizables
-│
-├── 📁 reports/
-│   └── figures/                 # Gráficos e imágenes generadas durante el análisis
-│
-├── 📁 models/                   # (Opcional) Modelos entrenados o serializados (.pkl, .joblib)
-│
-├── README.md                   # Documentación general del proyecto
-├── requirements.txt            # Bibliotecas necesarias para reproducir el entorno
-└── main.py  
+Pandas
 
-## Ejemplos de gráficos e insights obtenidos.
+NumPy
 
-## Instrucciones para ejecutar el notebook.
+Seaborn
+
+Matplotlib
+
+Requests
+
+Jupyter Notebook
+
+🔧 Instalación
+
+Clona el repositorio:
+
+git clone https://github.com/smringdesigns/Proyecto_TelecomX.git
+
+Crea un entorno virtual y actívalo (opcional pero recomendado):
+
+python -m venv env
+source env/bin/activate  # En Linux/macOS
+env\Scripts\activate     # En Windows
+
+Instala las dependencias:
+
+pip install -r requirements.txt
+
+▶️ Ejecución
+
+Abre el notebook en Jupyter o Visual Studio Code:
+
+jupyter notebook notebook.ipynb
+
+Sigue el flujo del análisis que incluye:
+
+Extracción de datos desde JSON
+
+Limpieza y normalización
+
+Transformación y estandarización
+
+Visualización de insights
+
+Recomendaciones finales
+
+📉 Resultados Destacados
+
+El 26.5% de los clientes abandonaron el servicio (Churn = 1)
+
+El tipo de contrato mensual y el pago electrónico automático se relacionan con mayor evasión.
+
+Los clientes con múltiples servicios contratados tienden a permanecer más tiempo.
+
+Variables como "seguridad en línea" y "soporte técnico" también muestran relación con el churn.
+
+📈 Visualizaciones
+
+Gráficos de barras categóricas
+
+Boxplots por churn
+
+Matriz de correlación
+
+Histogramas de distribución
+
+💡 Recomendaciones
+
+Incentivar contratos anuales con beneficios adicionales.
+
+Mejorar los servicios con baja presencia (como respaldo en línea).
+
+Aplicar modelos predictivos con las variables más correlacionadas.
+
+📬 Contacto
+
+Creado por JorSti Tech by Stivenson Mussa
+📧 smring.designs@gmail.com
+📍 Valledupar, Colombia
+📱 3012792855
