@@ -41,7 +41,7 @@ Jupyter Notebook
 
 Clona el repositorio:
 
-git clone https://github.com/smringdesigns/Proyecto_TelecomX.git
+git clone https://github.com/smringdesigns/Challenge_2_TelecomX.git
 
 Crea un entorno virtual y actívalo (opcional pero recomendado):
 
